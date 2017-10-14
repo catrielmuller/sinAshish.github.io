@@ -1,8 +1,9 @@
 body, html {
   margin: 0;
   padding: 0;
-}
+  
 
+}
 @media only screen and (max-width: 480px) {
 	.bio {
 		padding: 3px !important;
@@ -11,7 +12,7 @@ body, html {
 }
 
 
-* {
+*{
     font-family: font-family: 'Amatic SC', cursive;
 }
 
@@ -221,11 +222,6 @@ height:100%;
 
 	.brand-logo {
 		margin: 0px;
-		font-size: 1.5rem;
-	}
-	
-	.heading {
-		font-size: 5rem;
 	}
 
 	.about .row {
