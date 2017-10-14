@@ -24,7 +24,9 @@ body, html {
 	/*background-position: right bottom;*/
 }
 
-
+.brand-logo {
+	margin: 0px 20px;
+}
 
 .slide {
 	align-items: center;
@@ -212,4 +214,8 @@ background-size:cover;
 #particle-js{
 height:100%;
 }
-.
+
+#sidenav-overlay {
+	z-index: 900 !important;
+}
+
