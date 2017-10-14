@@ -220,12 +220,16 @@ height:100%;
 /* Mobile Tweaks */
 @media only screen and (max-width: 992px) {
 
+	.brand-logo {
+		margin: 0px;
+	}
+
 	.about .row {
 		box-shadow: none;
 	}
 
 	.dp {
-		height: 400px;
+		height: 300px;
 		object-fit: cover;
 	}
 
