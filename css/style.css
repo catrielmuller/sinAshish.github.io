@@ -241,3 +241,22 @@ height:100%;
 		padding: 0px;
 	}
 }
+
+/*Galaxy S5 media querie*/ 
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3)	{
+	p{font-size:26px;line-height:35px}
+	.card-content p{font-size:27px}
+	.card-image {width:300px;}
+	.card{right:20px;}
+	.social{width:45px;padding-top:2px}
+	
+}
+/* Responsive */
+@media screen and (min-device-width: 280px) and (max-device-width: 868px) {
+	.side-nav{width:100%;text-align:center;}
+	
+}
+/* Fixing brand-logo that breaks in small devices. */
+@media only screen and (min-device-width : 280px) and (max-device-width : 338px) {
+	.nav-wrapper .brand-logo{font-size:22px;}
+	
